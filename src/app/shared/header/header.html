@@ -1,6 +1,36 @@
-<nav>
-  <a routerLink="/sobre">Sobre</a>
-  <a routerLink="/habilidades">Habilidades</a>
-  <a routerLink="/formacao-academica">Formação Acadêmica</a>
-  <a routerLink="/objetivo-profissional">Objetivo Profissional</a>
-</nav>
+<header class="header">
+
+  <div class="logo">
+    Portfólio
+  </div>
+
+  <nav>
+
+    <a
+      routerLink="/sobre"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }">
+      <button class="logo">Sobre</button>
+    </a>
+
+    <a
+      routerLink="/habilidades"
+      routerLinkActive="active">
+      <button class="logo">Habilidades</button>
+    </a>
+
+    <a
+      routerLink="/formacao-academica"
+      routerLinkActive="active">
+     <button class="logo">Formação Acadêmica</button>
+    </a>
+
+    <a
+      routerLink="/objetivo-profissional"
+      routerLinkActive="active">
+      <button class="logo">Objetivo Profissional</button>
+    </a>
+
+  </nav>
+
+</header>

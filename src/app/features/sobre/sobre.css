@@ -1,0 +1,112 @@
+.sobre {
+  min-height: 500px;
+  padding: 60px;
+
+  background-color: #1c1c1c;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobre h1 {
+  margin-bottom: 30px;
+
+  color: #c89b3c;
+
+  font-family: Georgia, serif;
+  font-size: 42px;
+  font-style: italic;
+}
+
+.sobre p {
+  max-width: 600px;
+
+  color: #f5f5f5;
+
+  font-family: Georgia, serif;
+  font-size: 20px;
+
+  line-height: 1.6;
+}
+
+h1 span {
+  color: #c89b3c;
+  font-style: italic;
+}
+
+.biografia {
+  max-width: 650px;
+
+  margin-bottom: 20px;
+
+  color: #000000;
+
+  font-family: Georgia, serif;
+  font-size: 17px;
+
+  line-height: 1.7;
+}
+.dados {
+  display: flex;
+
+  gap: 50px;
+
+  margin-top: 35px;
+}
+
+.dado {
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+}
+
+.dado strong {
+  color: #c89b3c;
+
+  font-size: 14px;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.dado span {
+  color: #f5f5f5;
+
+  font-size: 15px;
+}
+.contatos {
+  display: flex;
+
+  gap: 15px;
+
+  margin-top: 40px;
+}
+
+.contatos a {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 10px 16px;
+
+  color: #f5f5f5;
+
+  border: 1px solid #555;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  transition: 0.3s;
+}
+
+.contatos a:hover {
+  color: #0d0d0d;
+
+  background-color: #c89b3c;
+
+  border-color: #c89b3c;
+}
